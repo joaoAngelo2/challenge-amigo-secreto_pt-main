@@ -27,5 +27,15 @@ function inserirLista(){
     }
 }
 function sortearAmigo(){
-    return listaNomes[(Math.random() * listaNomes.length - 1)];
+    let resultado  = document.getElementById("resultado");
+    resultado.innerHTML = "";
+    var element = document.createElement('li');
+    if(listaNomes.length == 0 || !listaNomes){
+        element.textContent = "insira um elemento válido";
+        resultado.appendChild(element);
+        return;
+    }
+    let sorteado = listaNomes[Math.floor(Math.random() * listaNomes.length )];
+    element.textContent = `o nome sorteado foi: ${sorteado}`;
+    resultado.appendChild(element);
 }
