@@ -1,8 +1,6 @@
 <h1 align="center">Sorteador de amigo secreto</h1>
 
-<a href="https://www.linkedin.com/in/joao-angelo/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
+
 <h3 align="center">Descrição do projeto</h3>
 O sorteador de amigos online, foi um projeto como requisito para conclusão do desafio de lógica de programação da Alura com parceria do programa Oracle ONE. Nele tivemos que implementar em javascript as funcionalidades, tais como: receber o nome do campo de texto, verificar campos, inserir na lista, sortear uma posição aleatoriamente da lista e devolver o resultado pro usúario. 
 
@@ -33,4 +31,4 @@ O sorteador de amigos online, foi um projeto como requisito para conclusão do d
 <img loading="lazy" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </p>
 
-<h3 align="center"></h3>
+
